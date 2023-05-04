@@ -1,3 +1,5 @@
+[GODOC](https://pkg.go.dev/github.com/mdouchement/gexplorer)
+
 # gexplorer
 
 gexplorer is a package that provides file dialog for several OSes. It aims to be not dependent of any GUI framework.
@@ -16,7 +18,7 @@ Supported OSes:
   - 11
 
 Supported GUI frameworks:
-- [Gio UI](https://gioui.org) using `github/mdouchement/gexplorer/gioexplorer`
+- [Gio UI](https://gioui.org) using `github.com/mdouchement/gexplorer/gioexplorer`
 
 _This project is based on https://github.com/gioui/gio-x/tree/main/explorer work_
 

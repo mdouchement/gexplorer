@@ -1,4 +1,4 @@
-module github/mdouchement/gexplorer
+module github.com/mdouchement/gexplorer
 
 go 1.20
 

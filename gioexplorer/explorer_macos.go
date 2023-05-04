@@ -11,10 +11,9 @@ package gioexplorer
 import "C"
 
 import (
-	"github/mdouchement/gexplorer"
-
 	"gioui.org/app"
 	"gioui.org/io/event"
+	"github.com/mdouchement/gexplorer"
 )
 
 type explorer struct {

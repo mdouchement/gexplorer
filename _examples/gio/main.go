@@ -6,8 +6,6 @@ import (
 	"log"
 	"os"
 
-	"github/mdouchement/gexplorer/gioexplorer"
-
 	"gioui.org/app"
 	"gioui.org/font"
 	"gioui.org/font/gofont"
@@ -17,6 +15,7 @@ import (
 	"gioui.org/unit"
 	"gioui.org/widget"
 	"gioui.org/widget/material"
+	"github.com/mdouchement/gexplorer/gioexplorer"
 )
 
 type UI struct {

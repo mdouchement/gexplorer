@@ -3,7 +3,7 @@ package gioexplorer
 import (
 	"gioui.org/app"
 	"gioui.org/io/event"
-	"github/mdouchement/gexplorer"
+	"github.com/mdouchement/gexplorer"
 )
 
 type explorer struct {
