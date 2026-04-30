@@ -12,7 +12,7 @@ func newExplorer(_ RunHandler) *explorer {
 func (e *Explorer) setView(_ uintptr) {}
 
 func (e *Explorer) importFile(_ ...string) (string, error) {
-	return nil, ErrNotAvailable
+	return "", ErrNotAvailable
 }
 
 func (e *Explorer) importFiles(_ ...string) ([]string, error) {
@@ -20,5 +20,5 @@ func (e *Explorer) importFiles(_ ...string) ([]string, error) {
 }
 
 func (e *Explorer) exportFile(_ string) (string, error) {
-	return nil, ErrNotAvailable
+	return "", ErrNotAvailable
 }
